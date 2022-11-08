@@ -1,0 +1,169 @@
+plugins:
+- artifactId: pipeline-utility-steps
+  source:
+    url: https://artifactory.prod.fr.aws.bank/artifactory/jenkins-virtual/pipeline-utility-steps/2.13.0/pipeline-utility-steps.hpi
+    version: 2.13.0
+- artifactId: groovy-postbuild
+  source:
+    url: https://artifactory.prod.fr.aws.bank/artifactory/jenkins-virtual/groovy-postbuild/2.5/groovy-postbuild.hpi
+    version: '2.5'
+- artifactId: pipeline-stage-view
+  source:
+    url: https://artifactory.prod.fr.aws.bank/artifactory/jenkins-virtual/pipeline-stage-view/2.27/pipeline-stage-view.hpi
+    version: '2.27'
+- artifactId: build-user-vars-plugin
+  source:
+    url: https://artifactory.prod.fr.aws.bank/artifactory/jenkins-virtual/build-user-vars-plugin/1.9/build-user-vars-plugin.hpi
+    version: '1.9'
+- artifactId: artifactory
+  source:
+    url: https://artifactory.prod.fr.aws.bank/artifactory/jenkins-virtual/artifactory/3.17.2/artifactory.hpi
+    version: 3.17.2
+- artifactId: maven-plugin
+  source:
+    url: https://artifactory.prod.fr.aws.bank/artifactory/jenkins-virtual/maven-plugin/3.20/maven-plugin.hpi
+    version: '3.20'
+- artifactId: kubernetes
+  source:
+    url: https://artifactory.prod.fr.aws.bank/artifactory/jenkins-virtual/kubernetes/3724.v0920c1e0ec69/kubernetes.hpi
+    version: 3724.v0920c1e0ec69
+- artifactId: active-directory
+  source:
+    url: https://artifactory.prod.fr.aws.bank/artifactory/jenkins-virtual/active-directory/2.27/active-directory.hpi
+    version: '2.27'
+- artifactId: bitbucket
+  source:
+    url: https://artifactory.prod.fr.aws.bank/artifactory/jenkins-virtual/bitbucket/223.vd12f2bca5430/bitbucket.hpi
+    version: 223.vd12f2bca5430
+- artifactId: bitbucket-pullrequest-builder
+  source:
+    url: https://artifactory.prod.fr.aws.bank/artifactory/jenkins-virtual/bitbucket-pullrequest-builder/1.5.0/bitbucket-pullrequest-builder.hpi
+    version: 1.5.0
+- artifactId: groovy
+  source:
+    url: https://artifactory.prod.fr.aws.bank/artifactory/jenkins-virtual/groovy/453.vcdb_a_c5c99890/groovy.hpi
+    version: 453.vcdb_a_c5c99890
+- artifactId: git
+  source:
+    url: https://artifactory.prod.fr.aws.bank/artifactory/jenkins-virtual/git/4.12.1/git.hpi
+    version: 4.12.1
+- artifactId: git-client
+  source:
+    url: https://artifactory.prod.fr.aws.bank/artifactory/jenkins-virtual/git-client/3.12.1/git-client.hpi
+    version: 3.12.1
+- artifactId: git-parameter
+  source:
+    url: https://artifactory.prod.fr.aws.bank/artifactory/jenkins-virtual/git-parameter/0.9.18/git-parameter.hpi
+    version: 0.9.18
+- artifactId: junit
+  source:
+    url: https://artifactory.prod.fr.aws.bank/artifactory/jenkins-virtual/junit/1153.v1c24f1a_d2553/junit.hpi
+    version: 1153.v1c24f1a_d2553
+- artifactId: subversion
+  source:
+    url: https://artifactory.prod.fr.aws.bank/artifactory/jenkins-virtual/subversion/2.16.0/subversion.hpi
+    version: 2.16.0
+- artifactId: parameterized-trigger
+  source:
+    url: https://artifactory.prod.fr.aws.bank/artifactory/jenkins-virtual/parameterized-trigger/2.45/parameterized-trigger.hpi
+    version: '2.45'
+- artifactId: sonar
+  source:
+    url: https://artifactory.prod.fr.aws.bank/artifactory/jenkins-virtual/sonar/2.14/sonar.hpi
+    version: '2.14'
+- artifactId: ws-cleanup
+  source:
+    url: https://artifactory.prod.fr.aws.bank/artifactory/jenkins-virtual/ws-cleanup/0.43/ws-cleanup.hpi
+    version: '0.43'
+- artifactId: blueocean
+  source:
+    url: https://artifactory.prod.fr.aws.bank/artifactory/jenkins-virtual/blueocean/1.25.8/blueocean.hpi
+    version: 1.25.8
+- artifactId: jenkins-multijob-plugin
+  source:
+    url: https://artifactory.prod.fr.aws.bank/artifactory/jenkins-virtual/jenkins-multijob-plugin/623.v03401733c9a_9/jenkins-multijob-plugin.hpi
+    version: 623.v03401733c9a_9
+- artifactId: matrix-auth
+  source:
+    url: https://artifactory.prod.fr.aws.bank/artifactory/jenkins-virtual/matrix-auth/3.1.5/matrix-auth.hpi
+    version: 3.1.5
+- artifactId: role-strategy
+  source:
+    url: https://artifactory.prod.fr.aws.bank/artifactory/jenkins-virtual/role-strategy/562.v44e9a_e828d0e/role-strategy.hpi
+    version: 562.v44e9a_e828d0e
+- artifactId: saml
+  source:
+    url: https://artifactory.prod.fr.aws.bank/artifactory/jenkins-virtual/saml/4.369.v13507586ef8c/saml.hpi
+    version: 4.369.v13507586ef8c
+- artifactId: configuration-as-code
+  source:
+    url: https://artifactory.prod.fr.aws.bank/artifactory/jenkins-virtual/configuration-as-code/1559.v38a_b_2e3b_6b_b_7/configuration-as-code.hpi
+    version: 1559.v38a_b_2e3b_6b_b_7
+- artifactId: job-dsl
+  source:
+    url: https://artifactory.prod.fr.aws.bank/artifactory/jenkins-virtual/job-dsl/1.81/job-dsl.hpi
+    version: '1.81'
+- artifactId: simple-theme-plugin
+  source:
+    url: https://artifactory.prod.fr.aws.bank/artifactory/jenkins-virtual/simple-theme-plugin/136.v23a_15f86c53d/simple-theme-plugin.hpi
+    version: 136.v23a_15f86c53d
+- artifactId: extended-read-permission
+  source:
+    url: https://artifactory.prod.fr.aws.bank/artifactory/jenkins-virtual/extended-read-permission/3.2/extended-read-permission.hpi
+    version: '3.2'
+- artifactId: urltrigger
+  source:
+    url: https://artifactory.prod.fr.aws.bank/artifactory/jenkins-virtual/urltrigger/1.02/urltrigger.hpi
+    version: '1.02'
+- artifactId: pipeline-aws
+  source:
+    url: https://artifactory.prod.fr.aws.bank/artifactory/jenkins-virtual/pipeline-aws/1.43/pipeline-aws.hpi
+    version: '1.43'
+- artifactId: buildresult-trigger
+  source:
+    url: https://artifactory.prod.fr.aws.bank/artifactory/jenkins-virtual/buildresult-trigger/0.17/buildresult-trigger.hpi
+    version: '0.17'
+- artifactId: ec2
+  source:
+    url: https://artifactory.prod.fr.aws.bank/artifactory/jenkins-virtual/ec2/2.0.3/ec2.hpi
+    version: 2.0.3
+- artifactId: cucumber-reports
+  source:
+    url: https://artifactory.prod.fr.aws.bank/artifactory/jenkins-virtual/cucumber-reports/5.7.3/cucumber-reports.hpi
+    version: 5.7.3
+- artifactId: timestamper
+  source:
+    url: https://artifactory.prod.fr.aws.bank/artifactory/jenkins-virtual/timestamper/1.20/timestamper.hpi
+    version: '1.20'
+- artifactId: ansicolor
+  source:
+    url: https://artifactory.prod.fr.aws.bank/artifactory/jenkins-virtual/ansicolor/1.0.2/ansicolor.hpi
+    version: 1.0.2
+- artifactId: pagerduty
+  source:
+    url: https://artifactory.prod.fr.aws.bank/artifactory/jenkins-virtual/pagerduty/0.7.0/pagerduty.hpi
+    version: 0.7.0
+- artifactId: generic-webhook-trigger
+  source:
+    url: https://artifactory.prod.fr.aws.bank/artifactory/jenkins-virtual/generic-webhook-trigger/1.85.2/generic-webhook-trigger.hpi
+    version: 1.85.2
+- artifactId: templating-engine
+  source:
+    url: https://artifactory.prod.fr.aws.bank/artifactory/jenkins-virtual/templating-engine/1.7.1/templating-engine.hpi
+    version: 1.7.1
+- artifactId: credentials-binding
+  source:
+    url: https://artifactory.prod.fr.aws.bank/artifactory/jenkins-virtual/credentials-binding/523.vd859a_4b_122e6/credentials-binding.hpi
+    version: 523.vd859a_4b_122e6
+- artifactId: pipeline-maven
+  source:
+    url: https://artifactory.prod.fr.aws.bank/artifactory/jenkins-virtual/pipeline-maven/1205.vceea_7b_972817/pipeline-maven.hpi
+    version: 1205.vceea_7b_972817
+- artifactId: workflow-basic-steps
+  source:
+    url: https://artifactory.prod.fr.aws.bank/artifactory/jenkins-virtual/workflow-basic-steps/994.vd57e3ca_46d24/workflow-basic-steps.hpi
+    version: 994.vd57e3ca_46d24
+- artifactId: aws-secrets-manager-credentials-provider
+  source:
+    url: https://artifactory.prod.fr.aws.bank/artifactory/jenkins-virtual/aws-secrets-manager-credentials-provider/1.189.vdb_b_86ddd16e8/aws-secrets-manager-credentials-provider.hpi
+    version: 1.189.vdb_b_86ddd16e8
